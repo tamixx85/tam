@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    font-family: 'Grandstander', cursive;
+}
+
+
+body{
+    background:#cb1a1a;
+    transition: .6s;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    min-width: 100%;
+}
+
+main h1{
+    text-align: center;
+    font-size: 1,5rem;
+    margin-top:1rem;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+.gaseosa{
+    margin: auto;
+    width: 16rem;
+    margin-top:1rem;
+    transition: .5 s;
+
+
+}
+
+#tipos_coca{
+    display: flex;
+    justify-content: center;
+}
+
+img main{
+    margin-top:1rem;
+    width: 6rem;
+}
+.tipos_coca{
+    transition: .5 s;
+}
+
+.tipos_coca:hover{
+    transform: translateY(-15px);
+}
+
+.tipos_coca:focus{
+    transform: translateY(-15px);
+}
